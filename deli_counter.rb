@@ -8,4 +8,3 @@ def line(array)
     array.each_with_index do |name, index|
       line_two += "#{index + 1}, #{name}"
   end
-end
