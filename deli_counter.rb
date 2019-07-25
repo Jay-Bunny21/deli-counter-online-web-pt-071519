@@ -18,9 +18,10 @@ def take_a_number(array,name)
 end
 
 def now_serving(array)
-  if array.count == 0 
+  if array.empty?
     puts "There is nobody wating to be served!"
   else
-    puts "Currently serving #{array.shift}"
+    puts "Currently serving #{array[0]}."
+    array.shift
   end
 end
