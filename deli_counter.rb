@@ -4,5 +4,6 @@ def line(array)
   if array.count == 0
     puts "The line is currently empty."
   else
-    puts "The line is currently:"
+    line_two = "The line is currently:"
+    array.each
   end
