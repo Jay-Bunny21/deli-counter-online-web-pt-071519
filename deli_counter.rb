@@ -1,7 +1,7 @@
 katz_deli = []
 
 
-def line(katz_deli)
+def line(x)
    if katz_deli.length >= 1
   array = []
   counter = 1
