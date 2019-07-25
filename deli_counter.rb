@@ -15,4 +15,3 @@ def line(x)
  end
 end
 
-line(katz_deli)
