@@ -6,7 +6,7 @@ def line(katz_deli)
   else
     counter = 0
     until counter == katz_deli.count
-      line << " #{counter+1}. #{katz_deli[counter]}"
+      line << " #{counter + 1}. #{katz_deli[counter]}"
       counter += 1
     end
     puts line
