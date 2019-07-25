@@ -10,3 +10,4 @@ def line(array)
   end
  puts line_two
  end
+ end
