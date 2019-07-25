@@ -2,7 +2,7 @@ katz_deli = []
 
 
 def line(x)
-   if katz_deli.length >= 1
+   if x.length >= 1
   array = []
   counter = 1
  katz_deli.each do |name|
